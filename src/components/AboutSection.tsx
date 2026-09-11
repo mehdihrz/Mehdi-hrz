@@ -18,7 +18,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ language }) => {
       const saved = localStorage.getItem('mehdi_profile_photo');
       if (saved) return saved;
     }
-    '[https://github.com/user-attachments/assets/85c147e1-0882-457c-b0a8-485a34f9474b](https://github.com/user-attachments/assets/85c147e1-0882-457c-b0a8-485a34f9474b)';
+    return 'https://github.com/user-attachments/assets/85c147e1-0882-457c-b0a8-485a34f9474b';
   });
 
   return (
